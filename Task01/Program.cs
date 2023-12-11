@@ -17,7 +17,6 @@ void PrintNumbers(int M, int N)
 
 // ------------------
 int M = ReadInt("Введите число M: ");
-
 int N = ReadInt("Введите число N: ");
 
 System.Console.WriteLine("На отрезке расположены следующие числа");
