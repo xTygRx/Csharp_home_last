@@ -26,9 +26,9 @@ void PrintNumbersArray(int[] array, int size)
 {
     
     if(size - 1 < 0 ) return;
-    System.Console.WriteLine(size - 1);
+    System.Console.Write(array[size-1] + " ");
     PrintNumbersArray(array, size - 1);
-    System.Console.Write(array[array.Length - size] + " ");
+    
 }
 
 
